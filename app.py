@@ -6,7 +6,6 @@ AI created Resume based on high ATS
 score""")
 
 # step 2: load modules
-import IPython as ip
 import os
 import time
 import langchain
