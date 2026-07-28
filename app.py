@@ -104,11 +104,11 @@ if uploaded_file is not None:
         st.sidebar.image(image,captions="Uploaded Image",use_container_width=True)
         if image.mode in("RGBA","P"):
             image=image.convert("RGB")
-            base_name=os.path.splitext(uploaded_file.name)[0]
-            save_path=f"{base_name}.jpg"
-            # Save the image to the current working directory
-            image.save(save_path,"JPEG")
-            st.sidebar.success(f"Image successfully saved as '{save_path}'!")
+        base_name=os.path.splitext(uploaded_file.name)[0]
+        save_path=f"{base_name}.jpg"
+        # Save the image to the current working directory
+        image.save(save_path,"JPEG")
+        st.sidebar.success(f"Image successfully saved as '{save_path}'!")
 
     except Exception as e:
         st.error(f"Error processing image: {e}")
