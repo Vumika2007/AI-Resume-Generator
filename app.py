@@ -133,7 +133,7 @@ Photo: {uploaded_file }
 Photo present in current directory with name as 
 uploaded_file, and once resume generated give
 download button in same html code.
-Default if not given: Give Python Developer Resume""""""
+Default if not given: Give Python Developer Resume"""
 
 query = final_prompt + user_details
 
