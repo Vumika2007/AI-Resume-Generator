@@ -117,7 +117,7 @@ import base64
 
 OPTIONS=["DELHI","NOIDA","GURGAON/GURUGRAM",
         "KANPUR","LUCKNOW","KOLKATA","BANGLORE"]
-LOACATION=st.sidebar.multiselect('SELECT LOCATION: ',
+LOCATION=st.sidebar.multiselect('SELECT LOCATION: ',
                                  options=OPTIONS)
 JOB_PROFILE=["PYTHON DEVELOPER","GEN AI",
              "FULL-STACK DEVELOPER","DATA ANALYST"]
