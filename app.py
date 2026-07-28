@@ -135,8 +135,6 @@ uploaded_file, and once resume generated give
 download button in same html code.
 Default if not given: Give Python Developer Resume""""""
 
-user_details=f"""user details: given below:
-
 query = final_prompt + user_details
 
 if st.button("Generate Resume"):
